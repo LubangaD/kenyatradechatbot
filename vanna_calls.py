@@ -4,7 +4,7 @@ from vanna.remote import VannaDefault
 
 @st.cache_resource(ttl=3600)
 def setup_vanna():
-    vn = VannaDefault(api_key=st.secrets.get("VANNA_API_KEY"), model='tradem')
+    vn = VannaDefault(api_key=st.secrets.get("VANNA_API_KEY"), model='tradebot')
     vn.connect_to_sqlite("trade_data.db")
     return vn
 
