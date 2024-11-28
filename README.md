@@ -1,4 +1,3 @@
-```markdown
 # Kenya Trade Chatbot
 
 ## Overview
@@ -52,7 +51,7 @@ The **Kenya Trade Chatbot** is an AI-powered tool that leverages **Retrieval-Aug
 2. **Set Up a Virtual Environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # For Windows: venv\Scripts\activate
+   source venv/Scripts/activate  # For Windows: venv\Scripts\activate
    ```
 
 3. **Install Dependencies**:
@@ -65,7 +64,7 @@ The **Kenya Trade Chatbot** is an AI-powered tool that leverages **Retrieval-Aug
 
 5. **Run the Chatbot**:
    ```bash
-   python src/app.py
+   streamlit run app.py
    ```
 
 ## Usage
